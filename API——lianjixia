@@ -1,0 +1,108 @@
+#收藏   NEW  HOT
+
+http://api.lianjixia.com//user_api/?&do=load_game_briefs&index=0&limit=18&order=MY_FAVORITE&session_id=4419341909985856&sign=f55fa9eebbd34476a99396fa21843c63&type=&version=0.3.32
+
+#获取首页信息  变量：index
+
+http://api.lianjixia.com//user_api/?&do=load_game_briefs&index=0&limit=18&order=&session_id=&sign=75381b6111964679a22e16cf10132667&type=&version=0.3.32
+
+#登录  变量：账号 密码
+
+http://api.lianjixia.com/user_api/?&do=login&name=xy1844&pwd=chy19980712&sign=75381b6111964679a22e16cf10132667&version=0.3.32
+
+
+#退出登录
+
+
+http://api.lianjixia.com/user_api/?&do=logout&session_id=7778800607846195&sign=f55fa9eebbd34476a99396fa21843c63&version=0.3.32
+
+
+#用户信息  变量 session_id
+
+http://api.lianjixia.com/user_api/?&do=query_current_user&session_id=6560008167754622&sign=75381b6111964679a22e16cf10132667&version=0.3.32
+
+#加入游戏  变量 session_id  game_id
+
+http://api.lianjixia.com//user_api/?&do=join_game&game_id=14157&pwd=&session_id=6560008167754622&sign=75381b6111964679a22e16cf10132667&version=0.3.32
+
+#退出游戏 变量 session_id  game_id
+
+http://api.lianjixia.com//user_api/?&do=exit_game&game_id=14157&pwd=&session_id=6560008167754622&sign=75381b6111964679a22e16cf10132667&version=0.3.32
+
+#房间信息 
+
+http://api.lianjixia.com/user_api/?&do=query_game&game_id=14157&session_id=6560008167754622&sign=75381b6111964679a22e16cf10132667&version=0.3.32
+
+#房间玩家
+
+http://api.lianjixia.com//user_api/?&do=query_game_status&game_id=14157&hash=8bb23264fd2b923b&session_id=6560008167754622&sign=75381b6111964679a22e16cf10132667&version=0.3.32
+
+#改名
+
+http://api.lianjixia.com/user_api/?&do=modify_current_user_nick&nick=修改的名字&session_id=上面获取的session&sign=1709fe6308044566a22474dfd7939f02&version=0.3.32
+
+
+#上锁
+
+api.lianjixia.com/user_api/?&do=modify_game&game_id=4576&pwd=房间密码&session_id=获取的session&sign=1709fe6308044566a22474dfd7939f02&version=0.3.32
+
+#更改容量
+
+api.lianjixia.com/user_api/?&do=modify_game&game_id=14647&player_capacity=5&session_id=6761707796144556&sign=1709fe6308044566a22474dfd7939f02&version=0.3.32
+
+#收藏
+
+api.lianjixia.com/user_api/?&do=add_favorite&game_id=房间号&session_id=session&sign=1709fe6308044566a22474dfd7939f02&version=0.3.32
+
+
+#取消收藏 
+
+api.lianjixia.com/user_api/?&do=remove_favorite&game_id=房间号&session_id=session&sign=1709fe6308044566a22474dfd7939f02&version=0.3.32
+
+
+HTTP/1.1 200 OK
+Server: Tengine
+Content-Type: application/json; charset=utf-8
+Content-Length: 99
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+X-Powered-By: ARR/3.0
+Date: Fri, 26 Jul 2019 10:04:33 GMT
+Ali-Swift-Global-Savetime: 1564135474
+Via: cache17.l2et2[726,200-0,M], cache44.l2et2[727,0], kunlun8.cn1481[752,200-0,M], kunlun1.cn1481[937,0]
+X-Cache: MISS TCP_MISS dirn:-2:-2
+X-Swift-SaveTime: Fri, 26 Jul 2019 10:04:34 GMT
+X-Swift-CacheTime: 0
+Timing-Allow-Origin: *
+EagleId: 3df09a1515641354741821778e
+
+{
+."code":9,
+."msg":"....................................!",
+."stamp":1564135474,
+."tick":15
+}
+
+
+HTTP/1.1 200 OK
+Server: Tengine
+Content-Type: application/json; charset=utf-8
+Content-Length: 50
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+X-Powered-By: ARR/3.0
+Date: Fri, 26 Jul 2019 09:59:45 GMT
+Ali-Swift-Global-Savetime: 1564135186
+Via: cache19.l2cn1811[21,200-0,M], cache5.l2cn1811[22,0], kunlun10.cn1481[53,200-0,M], kunlun8.cn1481[54,0]
+X-Cache: MISS TCP_MISS dirn:-2:-2
+X-Swift-SaveTime: Fri, 26 Jul 2019 09:59:46 GMT
+X-Swift-CacheTime: 0
+Timing-Allow-Origin: *
+EagleId: 3df09a1c15641351866788366e
+
+{
+."code":0,
+."stamp":1564135186,
+."tick":16
+}
+
