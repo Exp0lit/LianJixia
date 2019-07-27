@@ -8,7 +8,7 @@ http://api.lianjixia.com//user_api/?&do=load_game_briefs&index=0&limit=18&order=
 
 #登录  变量：账号 密码
 
-http://api.lianjixia.com/user_api/?&do=login&name=xy1844&pwd=chy19980712&sign=75381b6111964679a22e16cf10132667&version=0.3.32
+http://api.lianjixia.com/user_api/?&do=login&name=&pwd=&sign=75381b6111964679a22e16cf10132667&version=0.3.32
 
 
 #退出登录
